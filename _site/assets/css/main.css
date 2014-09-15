@@ -231,7 +231,7 @@ body {
   top: 0px;
   right: 0;
   bottom: 0px;
-  left: 0px;
+  left: -190px;
   -webkit-transition: all 0.15s ease-out 0s;
   -moz-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s;
@@ -252,6 +252,30 @@ body {
     cursor: pointer; }
     .sidebar li:hover {
       color: white; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px; }
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
 
 .page-content {
   position: relative;

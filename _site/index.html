@@ -11,8 +11,15 @@
   </head>
   <body>
 
-    <p> <center>Test</center> </p>
-    <div class="sidebar">
+    <!--using psuedo element of a checkbox here
+    so that it will change style based on toggle-->
+    <input type="checkbox" id="sidebartoggler" name="" value="">
+
+    <div class='page-wrap'>
+      <label for="sidebartoggler" class="toggle">☰</label>
+      <p> <center>Test</center> </p>
+
+      <div class="sidebar">
   <ul>
     <li>Home</li>
     <li>Projects</li>
@@ -22,6 +29,7 @@
   </ul>
 </div>
 
+    <div class='page-wrap'>
 
     <script src="/assets/js/jquery-2.1.1.min.js"></script>
     <script src="/assets/js/functions.js" type="text/javascript"></script>
