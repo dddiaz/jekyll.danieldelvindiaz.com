@@ -218,7 +218,7 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: #F6F6F8;
+  background: #7f8c8d;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
@@ -266,7 +266,9 @@ body {
   bottom: 0;
   left: 20px;
   z-index: 1;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 40px;
+  height: 35px; }
 
 #sidebartoggler {
   display: none; }
@@ -276,6 +278,32 @@ body {
     left: 200px; }
   #sidebartoggler:checked + .page-wrap .page-content {
     padding-left: 180px; }
+
+header {
+  height: 100vh;
+  background: #16a085;
+  background: url(../img/dddiaz-bg.jpg) center center;
+  background-size: cover; }
+
+.hello {
+  text-align: left;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  clear: both;
+  padding-top: 100px;
+  margin-left: 50px; }
+
+.whois {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-right: 45%; }
 
 .page-content {
   position: relative;
