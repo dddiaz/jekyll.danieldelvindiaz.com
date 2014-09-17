@@ -1,12 +1,28 @@
 footer
-  height: 25vh
+  height: 200px
   background: #16a085
   background: url(../img/dddiaz-scuba.jpg) center center
   background-size: cover
 
   .lockup
     //using margin cause a weird gray bar to show up?
-    padding: 30px
+    //possibly fixed by +clearfix
+    padding: 50px 50px
 
     .footer-logo
-      +size(50px)
+      +size(100px)
+      float: left
+      margin-right: 30px
+
+    .content-wrap-footer
+      float: left
+      color:black
+
+    nav
+      padding-top: 2vh
+      color: white
+      font:
+        size: 20px
+        weight: 700
+      a
+        color:white
