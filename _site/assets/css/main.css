@@ -5576,7 +5576,8 @@ header {
 
 hgroup {
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  padding-top: 30vh; }
 
 .hello {
   text-align: left;
@@ -5608,6 +5609,18 @@ hgroup {
 .about {
   height: 50vh;
   background: #E8ECEE; }
+  .about .footer-logo {
+    height: 100px;
+    width: 100px; }
+  .about h2 {
+    color: black;
+    font-size: 5.8rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 72px; }
+  .about hr {
+    margin-top: 50px;
+    margin-bottom: 50px; }
 
 footer {
   height: 200px;
@@ -5628,6 +5641,24 @@ footer {
       color: white;
       font-size: 20px;
       font-weight: 700; }
+
+.github {
+  height: 100vh;
+  background: #16a085;
+  background: url(../img/github-bg.jpg) center center;
+  background-size: cover; }
+  .github .footer-logo {
+    height: 50vh;
+    width: 50vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+  .github a {
+    color: black;
+    font-size: 50px;
+    font-weight: 700; }
+  .github img.github-logo {
+    margin-top: 5vh; }
 
 .page-content {
   position: relative;
